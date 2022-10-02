@@ -1,0 +1,17 @@
+$break_point: 1368px;
+
+@media (max-width: $break_point){
+    .format__use{
+        width: 90%;
+    }
+    .footer__content{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    // Skills Section 
+    .skills__flex-container{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
